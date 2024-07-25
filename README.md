@@ -38,17 +38,9 @@ To run this project, open the `index.html` file in your web browser. Ensure that
 
 - **Personal Information**
 ![image](https://github.com/user-attachments/assets/74ded07e-5abc-4f46-9ded-cb08f5e8263c)
-
-- **Education Information**
 ![image](https://github.com/user-attachments/assets/67706b1c-12a0-4aa3-a1c0-c9fd57971aa7)
-
-- **Project Information**
 ![image](https://github.com/user-attachments/assets/828f7d1e-fd97-473c-88a1-7b50f0c42b2f)
-
-- **Experience Information**
 ![image](https://github.com/user-attachments/assets/1249c055-b6f6-4acb-b9f1-c4560a884f40)
-
-- **Skills Information**
 ![image](https://github.com/user-attachments/assets/ce6be920-ad0c-47e4-8728-ad556704ba8a)
 
 - **Click GENERATE RESUME**
