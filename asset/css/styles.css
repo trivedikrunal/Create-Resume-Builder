@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #00bcd4, #8e24aa);
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+
+.container, #resumeOutput {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+#resumeOutput{
+    margin-top: 20px;
+}
+
+
+
+h1, h2, h3 {
+    color: #8e24aa;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #8e24aa;
+    box-shadow: 0 0 12px rgba(142, 36, 170, 0.5);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: linear-gradient(135deg, #8e24aa, #00bcd4);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #00bcd4, #8e24aa);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 4px solid #8e24aa;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.project, .education, .experience {
+    margin-top: 20px;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.project:hover, .education:hover, .experience:hover {
+    border-color: #8e24aa;
+    background-color: #e0f7fa;
+    box-shadow: 0 0 12px rgba(142, 36, 170, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: #8e24aa;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00bcd4;
+}
+/* ------------------- Resume Output ---------------------------- */
+#resumeOutput .header {
+    border-bottom: 4px solid black;
+   
+}
+#resumeOutput a {
+    color: #00bcd4;
+}
+#resumeOutput h1,#resumeOutput  h2,#resumeOutput  h3 {
+    color: black;
+    text-align: center;
+}
+
+#resumeOutput .project:hover,#resumeOutput  .education:hover,#resumeOutput  .experience:hover {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+#resumeOutput .project,#resumeOutput  .education,#resumeOutput  .experience {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+ 
+#print-resume{
+    max-width: 55%;
+    margin: 10px auto;
+}
+

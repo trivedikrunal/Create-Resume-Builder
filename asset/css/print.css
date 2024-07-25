@@ -1,0 +1,63 @@
+/* print.css */
+body {
+    font-family: 'Arial', sans-serif;
+    color: black;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container, #resumeOutput {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+}
+.header {
+    border-bottom: 4px solid black;
+   
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 14px;
+}
+
+.section {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.project, .education, .experience {
+    margin-top: 15px;
+    padding: 5px;
+    border: none;
+    background: none;
+}
+
+.project p, .education p, .experience p {
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+button {
+    display: none;
+}
+a {
+    color: #00bcd4;
+}
+h1, h2, h3 {
+    color: black;
+    text-align: center;
+}

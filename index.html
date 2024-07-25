@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Resume Builder</title>
+    <link rel="shortcut icon" href="asset/favicon/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="stylesheet" href="asset/css/print.css" media="print">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Builder</h1>
+        <form id="resume-form">
+            <h2>Personal Information</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="linkedin">LinkedIn Profile</label>
+            <input type="text" id="linkedin" required>
+            <label for="github">GitHub Link</label>
+            <input type="text" id="github" required>
+
+            <h2>Education</h2>
+            <label for="college-name">College Name</label>
+            <input type="text" id="college-name" required>
+            <label for="course">Course</label>
+            <input type="text" id="course" required>
+            <label for="cgpa">Current CGPA</label>
+            <input type="number" id="cgpa" required>
+            <label for="college-period">College Period</label>
+            <input type="text" id="college-period" required>
+            <label for="school-name">School Name</label>
+            <input type="text" id="school-name" required>
+            <label for="school-course">Course</label>
+            <input type="text" id="school-course" required>
+            <label for="percentage">Percentage</label>
+            <input type="number" id="percentage" required>
+            <label for="school-period">School Period</label>
+            <input type="text" id="school-period" required>
+
+            <h2>Projects</h2>
+            <div id="projects">
+                <div class="project">
+                    <label for="project-name1">Project Name</label>
+                    <input type="text" id="project-name1" required>
+                    <label for="project-skills1">Skills Used</label>
+                    <input type="text" id="project-skills1" required>
+                    <label for="project-link1">Project Link</label>
+                    <input type="text" id="project-link1" required>
+                    <label for="project-points1">Project Details</label>
+                    <textarea id="project-points1" required></textarea>
+                </div>
+            </div>
+            <button type="button" onclick="addProject()">Add Another Project</button>
+
+            <h2>Experience</h2>
+            <div id="experiences">
+                <div class="experience">
+                    <label for="company-name1">Company Name</label>
+                    <input type="text" id="company-name1" required>
+                    <label for="work-type1">Work Type</label>
+                    <input type="text" id="work-type1" required>
+                    <label for="work-period1">Work Period</label>
+                    <input type="text" id="work-period1" required>
+                    <label for="work-points1">Work Details</label>
+                    <textarea id="work-points1" required></textarea>
+                </div>
+            </div>
+            <button type="button" onclick="addExperience()">Add Another Experience</button>
+
+            <h2>Skills</h2>
+            <label for="skills">Skills</label>
+            <input type="text" id="skills" required>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+    </div>
+
+    <div id="resumeOutput" style="display:none;"></div>
+    <button id="print-resume" style="display:none;" onclick="printResume('resumeOutput')">Print Resume</button>
+
+    <script src="asset/js/scripts.js"></script>
+</body>
+</html>
