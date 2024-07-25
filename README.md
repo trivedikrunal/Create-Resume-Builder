@@ -47,6 +47,8 @@ To run this project, open the `index.html` file in your web browser. Ensure that
 ![image](https://github.com/user-attachments/assets/f1096281-2bc6-4426-9ff9-f400fad63bf4)
 
 - **Click PRINT RESUME**
+![image](https://github.com/user-attachments/assets/2ad1c3c3-b8c9-4e47-a16a-fd20c5104e1a)
+
 
 
 
