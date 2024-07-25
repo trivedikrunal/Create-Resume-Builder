@@ -52,7 +52,7 @@ To run this project, open the `index.html` file in your web browser. Ensure that
 ![image](https://github.com/user-attachments/assets/ce6be920-ad0c-47e4-8728-ad556704ba8a)
 
 - **Click GENERATE RESUME**
-![image](https://github.com/user-attachments/assets/ceb04afb-0c84-40cc-bae3-4cc7572e74e3)
+![image](https://github.com/user-attachments/assets/f1096281-2bc6-4426-9ff9-f400fad63bf4)
 
 - **Click PRINT RESUME**
 
